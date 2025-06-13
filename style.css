@@ -13,3 +13,29 @@ body {
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
     display: inline-block;
 }
+
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    border: 2px solid #000;
+}
+
+table th, table td {
+    border: 1px solid #000;
+    padding: 12px;
+    text-align: center;
+}
+
+th {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.blue-row {
+    background-color: #d0e7ff; /* light blue */
+}
+
+.grey-row {
+    background-color: #eeeeee; /* light grey */
+}

@@ -7,9 +7,10 @@
 </head>
 <body>
     <div class="container">
-        <h1>Hello from Sanket Suresh Medhe Pawar!</h1>
+        <h1>Hello from Sanket Suresh Medhe Pawar</h1>
         <p>PHP version: <?php echo phpversion(); ?></p>
         <p>Server Time: <?php echo date("Y-m-d H:i:s"); ?></p>
+
         <h2>User Table</h2>
         <table>
             <thead>
@@ -19,21 +20,20 @@
                 </tr>
             </thead>
             <tbody>
-                <tr>
+                <tr class="blue-row">
                     <td>Sanket</td>
                     <td>25</td>
                 </tr>
-                <tr>
+                <tr class="grey-row">
                     <td>Sai</td>
                     <td>24</td>
                 </tr>
-                <tr>
+                <tr class="blue-row">
                     <td>Vedant</td>
                     <td>26</td>
                 </tr>
             </tbody>
         </table>
     </div>
-
 </body>
 </html>
